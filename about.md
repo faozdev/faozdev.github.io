@@ -2,7 +2,7 @@
 title: About
 permalink: /about/
 layout: page
-excerpt: 
+excerpt:
 comments: false
 ---
 
@@ -11,5 +11,5 @@ Automation Engineering at Yıldız Technical University.
 
 **may u needs ✨**
 
-- {{ site.author.email }}
+- faozdev@gmail.com
 - github.com/{{ site.author.github }}
