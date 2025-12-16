@@ -2,6 +2,11 @@
 layout: default
 home: true
 ---
+<section class="home-about">
+  <h3>About Me</h3>
+  {% include about-content.html %}
+</section>
+
 
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
