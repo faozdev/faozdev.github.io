@@ -1,11 +1,11 @@
 # Site settings
 title: faozdev # site title
 description: Personal Website>- # site description
-  
+
 lang: en-US # default lang
 timezone: Asia/Istanbul # set your timezone
 image: assets/img/wizard.png # This image used for Open Graph more info https://ogp.me/
-repo:  # site repo [optional]
+repo: # site repo [optional]
 mode: light # default theme "dark" | "light"
 
 # Profile settings
@@ -20,9 +20,9 @@ author:
   avatar: /assets/img/wizard.png # change with your own avatar
 
 # URL settings
-url:  #
-baseurl:
-permalink: /:title/
+url: #
+baseurl: ""
+permalink: /:path/
 google_analytics: # leave it blank if not wish
 fb_appid:
 
@@ -67,6 +67,7 @@ sass:
 include:
   - _redirects
   - .htaccess
+  - assets
 
 exclude:
   - CNAME
