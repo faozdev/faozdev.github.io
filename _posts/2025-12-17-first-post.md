@@ -1,6 +1,7 @@
 ---
+layout: post
 title: "My First Blog Post"
-date: 2025-12-17 14:00:00 +0300
+date: 2025-12-16 14:00:00 +0300
 categories: [blog]
 tags: [jekyll, github-pages]
 author: Fatih
